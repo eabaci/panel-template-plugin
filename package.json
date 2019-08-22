@@ -1,0 +1,19 @@
+
+{
+  "name": "panel-template",
+  "version": "1.0.0",
+  "description": "Grafana Panel Template",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@grafana/data": "latest",
+    "@grafana/toolkit": "next",
+    "@grafana/ui": "latest"
+  }
+}
